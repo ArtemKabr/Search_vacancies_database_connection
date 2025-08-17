@@ -106,4 +106,3 @@ LEFT JOIN vacancies v ON e.id = v.employer_id
 GROUP BY e.name
 ORDER BY vacancies_count DESC
 LIMIT 10;
-

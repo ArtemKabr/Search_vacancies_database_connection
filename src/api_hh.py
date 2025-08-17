@@ -81,3 +81,11 @@ class HeadHunterAPI:
         if not nums:
             return None
         return int(sum(nums) / len(nums))
+
+
+def get_employers():
+    return None
+
+
+def get_vacancies_by_employer():
+    return None
